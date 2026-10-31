@@ -1,0 +1,27 @@
+# Dependencies everywhere (root and subdirectories)
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+.next/
+out/
+
+# Environment secrets
+.env
+.env.*
+*.local
+
+# Cache & logs
+.cache/
+*.log
+.turbo/
+.vercel/
+
+# OS & IDE metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

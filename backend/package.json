@@ -1,0 +1,17 @@
+{
+  "name": "karmayogi-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Karmayogi: The Klesha Slayer - Ambient Chore Execution & Telemetry Engine",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun src/index.ts",
+    "daemon": "bun scripts/karmayogi-daemon.ts",
+    "build": "bun build src/index.ts --outdir dist --target bun"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.0.0"
+  }
+}
